@@ -1,14 +1,14 @@
 // inserire solo lettere 
 
-const userName =prompt('Ciao, il tuo nome è? ');
+let userName =prompt('Ciao, il tuo nome è? ');
 console.log(userName)
 
 // età passeggero
-const userAge =parseInt( prompt ('Quanti hanni hai?'))
+let userAge =parseInt( prompt ('Quanti hanni hai?'))
 console.log(userAge)
 
 // chiedere utente km vuole percorrere
-const percorrenza =parseInt( prompt ('Quanti km vuoi percorrere?'))
+let percorrenza =parseFloat( prompt ('Quanti km vuoi percorrere?'))
 console.log(percorrenza)
 
 // calcolo prezzo biglietto
